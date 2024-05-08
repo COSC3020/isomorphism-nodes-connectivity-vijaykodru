@@ -12,7 +12,13 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 \in E_1$ iff $(f(u),f(v)) \in E_2$.
 
 
-To prove that if two graphs A and B have the same number of nodes and are completely connected, they must be isomorphicwe start by the definition. According to the definition of isomorphism, for two graphs to be isomorphic, there must exist a bijection—a one-to-one and onto function—between their vertices. This means that every vertex in one graph uniquely corresponds to a vertex in the other graph. Given, A = {V1, E1} and B = {V2, E2} be two graphs with the same number of nodes n. Both graphs are completely connected, meaning that each node in A is connected to n-1 other nodes through edges in that same graph, and the same is true for graph B. For any node in graph A there exists a unique matching node in graph B meaning that for any node u in V1, there exists a counterpart node in V2, 
+To prove that if two graphs A and B have the same number of nodes and are completely connected, they must be isomorphic we start by the definition. According to the definition of isomorphism, for two graphs to be isomorphic, there must exist a bijection—a one-to-one and onto function—between their vertices. This means that every vertex in one graph uniquely corresponds to a vertex in the other graph. 
+
+Given, A = {V1, E1} and B = {V2, E2} be two graphs with the same number of nodes n. Both graphs are completely connected, meaning that each node in A is connected to n-1 other nodes through edges in that same graph, and the same is true for graph B. 
+
+That said if we take any vertex in Graph A we can always find a corresponding vertex in graph B in any permutation. This is because all the nodes are connected to each other in both the graphs making it true that we always find a bijection between them. 
+
+For any node in graph A there exists a unique corresponding node in graph B meaning that for any node u in V1, there exists a counterpart node in V2, 
 
 $u$ $\in$ $V_1$, $f(u)$ $\in$ $V_2$ is unique
 
@@ -31,3 +37,5 @@ https://www2.math.upenn.edu/~mlazar/math170/notes05-2.pdf
 https://courses.grainger.illinois.edu/cs173/sp2024/ALL-lectures/Lectures/graphs1.html
 
 isomorphism-nodes-connectivity-Dhruv8806
+
+isomorphism-nodes-connectivity-swilso59-1
